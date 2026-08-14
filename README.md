@@ -2,7 +2,7 @@
 
 **Full-Stack Engineer | Quantitative Research Developer | AI/ML Systems Builder**
 
-[GitHub](https://github.com/YugPatel27) • [LinkedIn](#) • [Email](#) • [Portfolio](#)
+[GitHub](https://github.com/YugPatel27) • [LinkedIn](#) • [Portfolio](https://portfolio-yug-patel.vercel.app/)
 
 ---
 
