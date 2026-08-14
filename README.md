@@ -1,126 +1,144 @@
 # Yug Patel
 
-**Full-Stack Engineer | Quantitative Research Developer | AI/ML Systems Builder**
+**Full-Stack Engineer | Financial Systems Developer | ML Infrastructure Builder**
 
-[GitHub](https://github.com/YugPatel27) • [LinkedIn](#) • [Portfolio](https://portfolio-yug-patel.vercel.app/)
+[GitHub](https://github.com/YugPatel27) • [Portfolio](https://portfolio-yug-patel.vercel.app/)
 
 ---
 
 ## About Me
 
-I'm a full-stack engineer exploring the intersection of **Quantitative Finance**, **Generative AI**, and **Machine Learning**. My work focuses on building systems that combine financial data analysis, risk modeling, and intelligent algorithms to solve real-world problems. I develop end-to-end solutions—from backend data pipelines to frontend interfaces—with deep expertise in Python-based systems and API architectures.
+I build systems at the intersection of **Quantitative Finance**, **Generative AI**, and **Machine Learning**. My work spans full-stack development—from backend data pipelines to frontend interfaces—with a strong emphasis on financial data processing, risk modeling, and intelligent automation.
 
-My experience spans building **AppsFlyer + CleverTap integrations** for user analytics, designing **REST APIs** with Node.js and Express, and developing **ML models** for predictive analysis. I understand how to move data through complex systems, transform it meaningfully, and present insights through clean interfaces.
+I approach engineering with a focus on understanding data flow, system architecture, and how components integrate end-to-end. Whether designing REST APIs, implementing machine learning pipelines, or orchestrating complex third-party integrations, I prioritize clarity in system design over implementation shortcuts.
 
-**Core Expertise:**
-- Full-Stack Development (Backend + Frontend + Database)
-- Python-Based Systems & Data Processing
-- REST API Design & Integration Architecture
-- Financial Data Analysis & Risk Modeling
-- Machine Learning Pipeline Development
-- Database Design & Query Optimization (SQL, MongoDB)
-- Real-time Data Flow & Event-Driven Systems
-
-**Current Focus:** Quantitative finance, financial risk modeling, machine learning deployment, and generative AI applications in data-driven systems.
+**What drives my work:** Building systems that handle real financial and analytical data at scale—systems that are reliable, maintainable, and solve problems that matter.
 
 ---
 
-## Tech Stack & Tools
+## Current Work & Projects
 
-| Category | Technologies |
-|----------|---------------|
-| **Languages** | Python, JavaScript, Node.js, SQL |
-| **ML & Data Science** | NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Jupyter Notebooks |
-| **Quantitative Finance** | Financial data processing, Risk modeling, Time-series analysis, Portfolio optimization |
-| **Backend Frameworks** | Express.js, Node.js, FastAPI, Flask |
-| **Databases** | MongoDB, SQL (PostgreSQL, MySQL), Time-series databases |
-| **API & Integration** | REST APIs, WebSockets, Third-party integrations (AppsFlyer, CleverTap, financial data APIs) |
-| **Frontend** | React, JavaScript, HTML/CSS |
-| **Tools & Platforms** | Git, GitHub, VS Code, Linux, Jupyter, Docker, Git Bash |
-| **Concepts** | Data Pipeline Architecture, API Design, Financial Modeling, ML Systems, Real-time Data Processing |
+### FinSight — Full-Stack Financial Analysis Platform
+**Exploring:** Financial data ingestion, natural language data querying, automated trend analysis
+
+A working financial intelligence platform where users upload financial reports (PDF/Excel/CSV/DOCX), query data through natural language, generate predictive visualizations, and compare companies.
+
+**Architecture & Design:**
+- Backend: Node.js/Express with layered MVC architecture (`routes → controllers → services → repositories`)
+- Frontend: React for interactive data visualization and report management
+- Data Pipeline: Document parsing (PDF/DOCX/CSV/Excel) → normalized JSON → queryable in-memory indexed store
+- Indexing: Pre-built Map indices for O(1) lookups; debounced disk persistence for performance
+- Q&A Engine: Local rule-based pattern matching (no external APIs) for understanding financial queries
+
+**Key Technical Decisions:**
+- Implemented separation of concerns: controllers never touch data directly, services never touch HTTP layer. This makes each layer independently testable and swappable.
+- Built graceful shutdown with pending flush to disk, ensuring debounced writes aren't lost on process termination
+- Designed trend projection using linear regression; extensible for ARIMA/Prophet when historical data grows
+
+**What I learned:** Financial data systems need robust parsing—messy filings, inconsistent formats, and mislabeled fields are the norm. Building architecture that handles this gracefully is as important as the business logic.
+
+### FinNotes — Document Intelligence & Research Processing
+**Exploring:** Unstructured document processing, risk assessment automation, offline-first AI systems
+
+A Python-based tool that transforms unstructured research documents into structured, decision-ready reports. Processes PDFs, markdown, text, and web content to extract key findings, identify risks, and suggest actions.
+
+**Architecture & Pipeline:**
+```
+Input → Extract → Clean → Chunk → Classify → Summarize → Report
+```
+- **Extraction:** PDF (via pdfplumber), text, markdown, pasted content
+- **Cleaning:** Removes page headers/footers, rejoins hard-wrapped lines, normalizes noise
+- **Chunking:** Splits long content into model-friendly segments while preserving context
+- **Classification:** Rule-based topic tagging (fraud, compliance, authentication, fintech, etc.) + risk scoring
+- **Summarization:** Per-chunk summaries + document-level synthesis + key points + action items
+- **Output:** Console report, JSON structured data, Markdown, PDF export
+
+**Multi-Interface Design:**
+- CLI (main.py) with batch processing, piping support
+- Flask web UI for interactive document analysis
+- Core pipeline (pipeline.py) imports cleanly into other applications
+- Pluggable LLM providers: default local summarizer, or swap to Claude/OpenAI/Ollama via single interface
+
+**What I learned:** Document processing is about understanding signal vs. noise. The real value is in structuring unstructured information—summarization is secondary. Building a robust pipeline that handles corrupt PDFs, image-only documents, and encoding issues is more valuable than model accuracy.
+
+### MedicineInventory-Prediction — Healthcare Inventory System with ML Forecasting
+**Exploring:** MERN stack, time-series prediction, healthcare domain systems
+
+Full-stack healthcare inventory management system with predictive analytics for medicine stock forecasting.
+
+**Tech & Implementation:**
+- MERN stack with authenticated user workflows
+- Medicine tracking with expiry alerts and stock notifications
+- Inventory forecasting using time-series data
+- Dashboard analytics for supply chain visibility
+- Report generation and export capabilities
 
 ---
 
-## Featured Projects
-
-### Financial Data Processing & Analysis
-Developed Python-based systems for extracting and processing financial market data.
-- Created data pipelines for ingesting stock prices, market indicators, and economic data
-- Implemented time-series analysis and data cleaning workflows
-- Built visualization dashboards to interpret financial trends
-- Integrated multiple financial data sources into unified analysis framework
-- **Skills Applied:** Data processing, time-series analysis, database design, system architecture
-- **Tech:** Python, Pandas, NumPy, SQL, PostgreSQL
-
-### Machine Learning Models for Predictive Analytics
-Developed ML models for forecasting and risk assessment.
-- Trained and validated predictive models using scikit-learn and TensorFlow
-- Implemented feature engineering pipelines for financial and behavioral data
-- Built evaluation frameworks to assess model performance and generalization
-- Deployed models via REST APIs for real-time predictions
-- **Skills Applied:** Model development, data preprocessing, performance optimization, deployment
-- **Tech:** Python, Scikit-learn, TensorFlow, NumPy, Pandas
-
-### Full-Stack Application Development
-Designed and built complete applications with backend APIs and frontend interfaces.
-- Architected backend systems using Express.js and database modeling
-- Developed React frontends for data visualization and user interaction
-- Implemented authentication, state management, and real-time data updates
-- Deployed applications with proper error handling and monitoring
-- **Skills Applied:** Full-stack architecture, API design, UI/UX implementation, system design
-- **Tech:** React, Node.js, Express.js, MongoDB, JavaScript
-
----
-
-## Work Experience & Skills Understanding
+## Technical Approach
 
 ### Full-Stack System Architecture
-I understand how data flows through complete systems-from data ingestion at the backend, through processing pipelines, database storage, API layers, to frontend visualization. I've built integrations that required understanding how different platforms communicate, how to transform data between systems, and how to maintain data integrity across layers.
+I think about systems holistically: how data enters (ingestion), transforms (pipelines), gets stored (databases), is accessed (APIs), and surfaces to users (frontends). I understand bottlenecks—where queries slow down, where parsing fails, where integration brittleness lives.
 
-**What I've learned:** Designing systems is about understanding bottlenecks, optimizing data access patterns, and building APIs that are both flexible and performant. It's not just about coding individual components-it's about orchestrating them cohesively.
+In FinSight and FinNotes, I've built architectures where each layer has one job. This isn't just about code organization—it's about isolation for testing, flexibility for swapping implementations, and clarity about data contracts between layers.
 
-### Python for Data-Driven Systems
-Python has become central to my work because of its ecosystem for data science and quantitative work. I use it not just for quick scripts, but for building production-grade data pipelines that handle real financial and analytical data.
+### Python for Production Data Systems
+I use Python not for quick scripts but for building production-grade pipelines. This means thinking about reproducibility (environment specs, version pinning), scalability (structured logging, progress tracking for batch operations), and robustness (error handling that doesn't crash on edge cases).
 
-**What I understand:** Data processing workflows, feature engineering, statistical analysis, and how to structure Python projects for reproducibility and scalability. I think in terms of DataFrames, transformations, and data validation—understanding data quality is as important as the algorithms that process it.
+In FinNotes, I've structured the pipeline as independent modules (extractor, cleaner, chunker, classifier, summarizer) so that testing individual stages and swapping implementations (e.g., rule-based classification → real ML model) doesn't require rewriting everything.
 
-### Quantitative Finance & Financial Modeling
-My exploration of quantitative finance involves understanding how markets work, how risk is quantified, and how to model financial systems mathematically.
+### Financial Data & Quantitative Thinking
+Financial systems demand precision. Data quality issues cascade—missing values, inconsistent units, mislabeled fields corrupt models downstream. Building FinSight taught me that data normalization and validation are as critical as the algorithms that use them.
 
-**What I'm developing:** Ability to read financial data, understand time-series patterns, implement risk models, and translate financial concepts into code. This includes understanding correlation matrices, volatility calculations, portfolio optimization, and how machine learning applies to prediction in markets.
+I understand time-series analysis (trends, seasonality, anomalies), risk metrics (volatility, correlation, VaR), and portfolio mathematics—both from first principles and through implementation.
 
-### Machine Learning Systems
-I've moved beyond "fitting models" to thinking about ML as systems—including data pipelines, model training, validation, hyperparameter tuning, and deployment.
+### Machine Learning as Systems
+ML isn't just model training—it's data pipelines, validation frameworks, deployment infrastructure, and monitoring. The difference between a model that works in a notebook and one that works in production is engineering.
 
-**What I've learned:** The real work in ML is in data preprocessing and feature engineering. A 95% accurate model is worthless if it's trained on bad data. I focus on understanding model behavior, not just accuracy metrics.
+In FinNotes and MedicineInventory, I've built feature engineering pipelines, evaluation frameworks that assess generalization (not just accuracy), and deployment paths via REST APIs.
 
 ### API Design & Integration Architecture
-Building AppsFlyer + CleverTap integration taught me that API design is about understanding what data needs to flow where and why. It's about designing contracts between systems that don't break when requirements change.
+Building integrations that work reliably requires thinking like a consumer. In my AppsFlyer + CleverTap work, I learned that APIs are contracts: versioning, rate limiting, error semantics, idempotency, and documentation matter as much as functionality.
 
-**What I understand:** RESTful principles, idempotency, rate limiting, error handling, versioning, and how to build APIs that other systems can reliably integrate with. It's about documentation, testing, and thinking from the consumer's perspective.
+A well-designed API doesn't break when requirements change. It handles edge cases gracefully. It's testable.
 
----
-
-## GitHub Stats
-
-[Your GitHub Stats will appear here - use tools like github-readme-stats]
+### Frontend for Data Insights
+The frontend isn't decoration—it's how insights become actionable. In FinSight, I've built interactive visualizations (charts, comparisons) and dashboards that make financial data comprehensible. In portfolio work, I've focused on responsive design and clear information hierarchy.
 
 ---
 
-## Focus Areas & Research Interests
+## Tech Stack
 
-**Quantitative Finance:** How machine learning and data analysis can improve financial modeling and risk assessment. Understanding market microstructure and building systems that can process financial data at scale.
+| Category | What I Use |
+|----------|-----------|
+| **Languages** | Python (data, ML, backend systems) • JavaScript/Node.js (full-stack) • SQL |
+| **Backend Frameworks** | Express.js • Flask • FastAPI |
+| **Databases** | MongoDB • PostgreSQL • SQLite |
+| **ML & Data** | NumPy • Pandas • Scikit-learn • TensorFlow • PyTorch • Jupyter |
+| **Frontend** | React • HTML/CSS • Responsive design |
+| **APIs & Integration** | REST APIs • WebSockets • Third-party integrations (AppsFlyer, CleverTap) |
+| **Data Processing** | PDF parsing (pdfplumber) • CSV/Excel handling • Document extraction |
+| **Tools & DevOps** | Git • GitHub • VS Code • Linux • Docker • npm/pip |
+| **Architecture Patterns** | MVC • Layered architecture • Separation of concerns • Clean code principles |
 
-**Generative AI:** Exploring how large language models and generative systems can be integrated into data pipelines and used for analysis, automation, and insight generation.
+---
 
-**Data Architecture:** Building systems that handle high-volume data with low latency, ensuring data quality, and creating meaningful insights from raw data.
+## What I'm Exploring
 
-**Full-Stack ML Deployment:** Taking models from research to production—understanding the engineering required to make ML systems reliable, scalable, and maintainable.
+**Quantitative Finance:** Building systems that handle financial data at scale—understanding market microstructure, implementing risk models, and applying ML to prediction in markets with historical constraints and regime changes.
+
+**Financial Data Pipelines:** Ingesting from multiple sources (APIs, filings, news), normalizing heterogeneous data, and creating queryable repositories that support analysis and modeling.
+
+**Generative AI in Data Systems:** How LLMs can augment data analysis workflows—natural language interfaces to data, automated report generation, pattern detection in unstructured documents.
+
+**ML Deployment & Reliability:** Taking models from research to production—monitoring, retraining, handling data drift, and ensuring systems degrade gracefully when model confidence drops.
+
+**Risk Modeling:** Implementing quantitative frameworks for financial risk—volatility estimation, correlation analysis, portfolio optimization, scenario analysis.
 
 ---
 
 ## Let's Connect
 
-I'm actively exploring roles and collaborations at the intersection of quantitative finance, machine learning, and software engineering. Interested in discussing system design, financial data analysis, ML deployment, or potential projects?
+I'm actively exploring opportunities at the intersection of quantitative finance, machine learning, and software engineering. Interested in discussing system design, financial data architecture, ML infrastructure, or building something together?
 
-**[LinkedIn](#) • [GitHub](https://github.com/YugPatel27) • [Portfolio](#)**
+**[GitHub](https://github.com/YugPatel27) • [Portfolio](https://portfolio-yug-patel.vercel.app/) 
