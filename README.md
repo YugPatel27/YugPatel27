@@ -6,21 +6,9 @@
 
 I build systems where **financial data, machine learning, and clean engineering** meet — from backend pipelines to the interfaces people actually use.
 
-**[GitHub](https://github.com/YugPatel27) · [Portfolio](https://portfolio-yug-patel.vercel.app/)
+*[GitHub](https://github.com/YugPatel27)  *[Portfolio](https://portfolio-yug-patel.vercel.app/)
 
 </div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/YugPatel27/YugPatel27/output/github-contribution-grid-snake.svg" alt="Yug's contribution snake animation" />
-
-</div>
-
-> This animates your real contribution graph into a snake that "eats" your commit squares. It's generated automatically by a GitHub Action — see **Setup** at the bottom of this file for the one-time steps to activate it on your profile.
 
 ---
 
