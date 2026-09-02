@@ -6,7 +6,7 @@
 
 I build systems where **financial data, machine learning, and clean engineering** meet — from backend pipelines to the interfaces people actually use.
 
-*[GitHub](https://github.com/YugPatel27)  *[Portfolio](https://portfolio-yug-patel.vercel.app/)
+*[GitHub](https://github.com/YugPatel27)  *[Portfolio](https://yugpatel27.vercel.app/)
 
 </div>
 
