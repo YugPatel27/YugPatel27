@@ -16,7 +16,7 @@ I build systems where **financial data, machine learning, and clean engineering*
 
 I'm a full-stack engineer exploring the intersection of **Quantitative Finance**, **Generative AI**, and **Machine Learning**. My work focuses on building systems that combine financial data analysis, risk modeling, and intelligent algorithms to solve real-world problems — end-to-end, from data ingestion to the frontend that surfaces the insight.
 
-My experience spans **AppsFlyer + CleverTap integrations** for user analytics, **REST APIs** with Node.js and Express, and **ML models** for predictive analysis. I care about how data moves through a system, how it gets transformed meaningfully, and how it's presented so someone can actually act on it.
+My experience spans **REST APIs** with Node.js and Express, and **ML models** for predictive analysis. I care about how data moves through a system, how it gets transformed meaningfully, and how it's presented so someone can actually act on it.
 
 > 💡 **Currently focused on:** quantitative finance, financial risk modeling, ML deployment, and generative AI applications in data-driven systems.
 
