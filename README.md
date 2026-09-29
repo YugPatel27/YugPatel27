@@ -1,20 +1,18 @@
-<div align="center">
+<!-- Animated Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&text=Hi,+I'm+Yug+Patel+👋&animation=fadeIn&fontColor=white&description=Full-Stack+Engineer+·+Quant+Developer+·+AI/ML+Systems&fontSize=32&descSize=18&descAlign=center" alt="header"/>
+</p>
 
-# Hi, I'm Yug Patel 👋
-
-### Full-Stack Engineer · Quantitative Research Developer · AI/ML Systems Builder
-
-I build systems where **financial data, machine learning, and clean engineering** meet — from backend pipelines to the interfaces people actually use.
-
-*[GitHub](https://github.com/YugPatel27)  *[Portfolio](https://yugpatel27.vercel.app/)
-
-</div>
+<!-- Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.vercel.app/?font=Fira+Code&size=24&duration=3000&pause=1000&color=58a6ff&center=true&vCenter=true&width=600&height=60&lines=Full-Stack+Engineer;Quantitative+Research+Developer;AI/ML+Systems+Builder;Building+at+the+intersection+of+finance+%26+ML" alt="typing"/>
+</p>
 
 ---
 
 ## 🧭 About Me
 
-I'm a full-stack engineer exploring the intersection of **Quantitative Finance**, **Generative AI**, and **Machine Learning**. My work focuses on building systems that combine financial data analysis, risk modeling, and intelligent algorithms to solve real-world problems — end-to-end, from data ingestion to the frontend that surfaces the insight.
+I'm a **full-stack engineer** exploring the intersection of **Quantitative Finance**, **Generative AI**, and **Machine Learning**. My work focuses on building systems that combine financial data analysis, risk modeling, and intelligent algorithms to solve real-world problems — end-to-end, from data ingestion to the frontend that surfaces the insight.
 
 My experience spans **REST APIs** with Node.js and Express, and **ML models** for predictive analysis. I care about how data moves through a system, how it gets transformed meaningfully, and how it's presented so someone can actually act on it.
 
@@ -52,15 +50,32 @@ My experience spans **REST APIs** with Node.js and Express, and **ML models** fo
 
 ## 🛠️ Tech Stack
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,nodejs,typescript,sql,react,express,mongodb,postgres,docker,git,linux,aws,tensorflow,pytorch,pandas,numpy,fastapi&theme=dark&perline=10" alt="skills"/>
+</p>
+
 | Category | Technologies |
 |---|---|
-| **Languages** | Python · JavaScript · Node.js · SQL |
-| **ML & Data Science** | NumPy · Pandas · Scikit-learn · TensorFlow · PyTorch · Jupyter |
-| **Quantitative Finance** | Financial data processing · Risk modeling · Time-series analysis · Portfolio optimization |
-| **Backend & APIs** | Express.js · FastAPI · Flask · REST · WebSockets |
-| **Databases** | MongoDB · PostgreSQL · MySQL · Time-series DBs |
-| **Frontend** | React · JavaScript · HTML5 · CSS3 |
-| **Tools & Platforms** | Git · GitHub · Docker · Linux · VS Code |
+| **Languages** | `Python` `JavaScript` `TypeScript` `SQL` |
+| **ML & Data Science** | `NumPy` `Pandas` `Scikit-learn` `TensorFlow` `PyTorch` |
+| **Quantitative Finance** | Time-series analysis · Risk modeling · Portfolio optimization |
+| **Backend & APIs** | `Node.js` `Express` `FastAPI` `Flask` `REST` `WebSockets` |
+| **Databases** | `MongoDB` `PostgreSQL` `MySQL` `Time-series DBs` |
+| **Frontend** | `React` `HTML5` `CSS3` `Tailwind` |
+| **Tools & Platforms** | `Git` `Docker` `Linux` `AWS` `GCP` |
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YugPatel27&show_icons=true&theme=tokyonight&hide_border=false&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&count_private=true&include_all_commits=true" alt="stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YugPatel27&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff" alt="streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YugPatel27&theme=tokyonight&hide_border=false&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_title=true" alt="activity-graph"/>
+</p>
 
 ---
 
@@ -77,7 +92,7 @@ Python-based systems for extracting and processing financial market data — fro
 - Built visualization dashboards to interpret financial trends
 - Unified multiple financial data sources into one analysis framework
 
-**Skills Applied:** Data processing · Time-series analysis · Database design · System architecture
+**Skills Applied:** Data processing · Time-series analysis · Database design · System architecture  
 **Tech:** `Python` `Pandas` `NumPy` `SQL` `PostgreSQL`
 
 </details>
@@ -93,7 +108,7 @@ ML models for forecasting and risk assessment, trained end-to-end and shipped as
 - Built evaluation frameworks for performance and generalization
 - Deployed models via REST APIs for real-time predictions
 
-**Skills Applied:** Model development · Preprocessing · Performance optimization · Deployment
+**Skills Applied:** Model development · Preprocessing · Performance optimization · Deployment  
 **Tech:** `Python` `Scikit-learn` `TensorFlow` `NumPy` `Pandas`
 
 </details>
@@ -109,7 +124,7 @@ Complete applications spanning backend APIs to frontend interfaces.
 - Implemented authentication, state management, real-time updates
 - Deployed with proper error handling and monitoring
 
-**Skills Applied:** Full-stack architecture · API design · UI/UX implementation · System design
+**Skills Applied:** Full-stack architecture · API design · UI/UX implementation · System design  
 **Tech:** `React` `Node.js` `Express.js` `MongoDB` `JavaScript`
 
 </details>
@@ -181,14 +196,50 @@ Building the AppsFlyer + CleverTap integration taught me that API design is abou
 
 ---
 
+## 🏆 Achievements & Badges
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YugPatel27&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" alt="trophies"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LeetCode-1600+-Rating-58a6ff?style=for-the-badge&logo=leetcode&logoColor=white" alt="leetcode"/>
+  <img src="https://img.shields.io/badge/Top%2010%-Kaggle-58a6ff?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle"/>
+  <img src="https://img.shields.io/badge/Python-Expert-58a6ff?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
+</p>
+
+---
+
 ## 🤝 Let's Connect
 
 I'm actively exploring roles and collaborations at the intersection of **quantitative finance, machine learning, and software engineering**. Open to talking system design, financial data analysis, ML deployment, or a project you're building.
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/YugPatel27">
+    <img src="https://img.shields.io/badge/GitHub-YugPatel27-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="github"/>
+  </a>
+  <a href="https://yugpatel27.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-58a6ff?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio"/>
+  </a>
+  <a href="https://linkedin.com/in/yourprofile">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-Me-58a6ff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+  </a>
+</p>
 
-**[LinkedIn](#) · [GitHub](https://github.com/YugPatel27) · [Portfolio](https://portfolio-yug-patel.vercel.app/)**
+<p align="center">
+  <em>⭐️ If any of this resonates — a project, an idea, a role — my inbox is open.</em>
+</p>
 
-*⭐️ If any of this resonates — a project, an idea, a role — my inbox is open.*
+<!-- Snake Animation (requires GitHub Action setup) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YugPatel27/YugPatel27/output/github-contribution-grid-snake.svg" alt="snake"/>
+</p>
 
-</div>
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=footing&color=gradient&height=80&text=Thanks+for+visiting!+🚀&animation=fadeIn&fontColor=white&fontSize=24" alt="footer"/>
+</p>
