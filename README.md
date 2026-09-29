@@ -66,19 +66,6 @@ My experience spans **REST APIs** with Node.js and Express, and **ML models** fo
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YugPatel27&show_icons=true&theme=tokyonight&hide_border=false&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&count_private=true&include_all_commits=true" alt="stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YugPatel27&theme=tokyonight&hide_border=false&background=0d1117&stroke=58a6ff" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YugPatel27&theme=tokyonight&hide_border=false&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_title=true" alt="activity-graph"/>
-</p>
-
----
-
 ## 🚀 Featured Projects
 
 <details open>
@@ -196,20 +183,6 @@ Building the AppsFlyer + CleverTap integration taught me that API design is abou
 
 ---
 
-## 🏆 Achievements & Badges
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YugPatel27&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" alt="trophies"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LeetCode-1600+-Rating-58a6ff?style=for-the-badge&logo=leetcode&logoColor=white" alt="leetcode"/>
-  <img src="https://img.shields.io/badge/Top%2010%-Kaggle-58a6ff?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle"/>
-  <img src="https://img.shields.io/badge/Python-Expert-58a6ff?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
-</p>
-
----
-
 ## 🤝 Let's Connect
 
 I'm actively exploring roles and collaborations at the intersection of **quantitative finance, machine learning, and software engineering**. Open to talking system design, financial data analysis, ML deployment, or a project you're building.
@@ -231,11 +204,6 @@ I'm actively exploring roles and collaborations at the intersection of **quantit
 
 <p align="center">
   <em>⭐️ If any of this resonates — a project, an idea, a role — my inbox is open.</em>
-</p>
-
-<!-- Snake Animation (requires GitHub Action setup) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YugPatel27/YugPatel27/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
 
 ---
