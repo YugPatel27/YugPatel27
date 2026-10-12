@@ -6,7 +6,7 @@
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-YugPatel27-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YugPatel27)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://yugpatel27.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://yugpatel27-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
 
 </div>
